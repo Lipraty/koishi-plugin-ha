@@ -1,0 +1,37 @@
+{
+  "name": "koishi-plugin-ha",
+  "description": "Home Assistant for koishi",
+  "version": "0.0.0-preview.0",
+  "repository": "https://github.com/Lipraty/koishi-plugin-ha",
+  "author": "Lipraty <i@lonay.me>",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "koishi": {
+    "description": {
+      "zh": "在 Koishi bot 中管理你的 HomeAssistant"
+    },
+    "preview": true
+  },
+  "scripts": {},
+  "keywords": [
+    "market:hidden",
+    "chatbot",
+    "koishi",
+    "plugin",
+    "genshin",
+    "yuanshen",
+    "原神",
+    "前瞻"
+  ],
+  "devDependencies": {
+    "koishi": "^4.11.6"
+  },
+  "peerDependencies": {
+    "koishi": "^4.11.0"
+  }
+}
